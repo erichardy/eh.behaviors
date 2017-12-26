@@ -1,0 +1,44 @@
+
+<!-- viewlet HOME Rich text + alternate rich Texts -->
+ 
+<div tal:define="portal_state context/@@plone_portal_state;
+                 portal_url portal_state/portal_url;
+                 display1 view/displayAlt1;
+                 label1 view/getLabel1;
+                 richTextAlt1 view/getTextAlt1;
+                 display2 view/displayAlt2;
+                 label2 view/getLabel2;
+                 richTextAlt2 view/getTextAlt2;
+                 ">
+
+    <section id="eh-alt-texts" class="pushbottom">
+		<span tal:condition="python:display1 and richTextAlt1"
+		    class="align-right">
+		      <button type="button"
+		              id="show-alt1-version"
+		              class="btn btn-default collapser"
+		              tal:content="string:${label1}">label 1</button>
+		</span>
+		<span tal:condition="python:display2 and richTextAlt2"
+		    class="align-right">
+		      <button type="button"
+		              id="show-alt2-version"
+		              class="btn btn-default collapser"
+		              tal:content="string:${label2}">label 2</button>
+		</span>   
+		<div class="eh-alt-texts-collapse text-alt1" style="display: none"
+		         id="show-alt1-version-collapse">
+			  <div tal:content="structure string:${richTextAlt1}">
+			  	text ALT1
+			  </div>
+		</div>
+		<div class="eh-alt-texts-collapse text-alt2" style="display: none"
+                 id="show-alt2-version-collapse">
+		  <div tal:content="structure string:${richTextAlt2}">
+		  	text ALT2
+		  </div>
+		</div>
+   </section>
+
+
+</div>

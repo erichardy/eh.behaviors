@@ -1,0 +1,66 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="eh.behaviors">
+
+<!-- Viewlet manager -->
+<browser:viewletManager
+    name="eh-behaviors"
+    for="*"
+    provides="eh.behaviors.browser.viewlets.interfaces.IEhBehaviors"
+    class="plone.app.viewletmanager.manager.OrderedViewletManager"
+    layer="eh.behaviors.interfaces.IEhBehaviorsLayer"
+    permission="zope2.View"
+    />
+<!-- -->
+<!--
+
+<browser:viewlet
+    name="eh-thumbnails"
+    manager="eh.behaviors.browser.viewlets.interfaces.IEhBehaviors"
+    class=".iuem20_home_thumbnails.iuem20HomeThumbnails"
+    layer="plonetheme.iuem20.interfaces.IPlonethemeIuem20Layer"
+    template="iuem20_home_thumbnails.pt"
+    permission="zope2.View"
+    />
+ -->
+<!-- VIEWLET Manager Alt Texts -->
+<browser:viewletManager
+    name="eh-alt-texts-mngr"
+    for="*"
+    provides="eh.behaviors.browser.viewlets.interfaces.IEhAltTexts"
+    class="plone.app.viewletmanager.manager.OrderedViewletManager"
+    layer="eh.behaviors.interfaces.IEhBehaviorsLayer"
+    permission="zope2.View"
+    />
+<browser:viewlet
+    name="eh-alt-texts"
+    manager="eh.behaviors.browser.viewlets.interfaces.IEhAltTexts"
+    class=".alt_texts.altTexts"
+    layer="eh.behaviors.interfaces.IEhBehaviorsLayer"
+    template="alt_texts.pt"
+    permission="zope2.View"
+    />
+<!-- FIN VIEWLET Manager Alt Languages -->
+<!--
+<browser:viewlet
+    name="more-css"
+    manager="plone.app.layout.viewlets.interfaces.IBelowContent"
+    class=".more_css.moreCss"
+    layer="plonetheme.iuem20.interfaces.IPlonethemeIuem20Layer"
+    template="more_css.pt"
+    permission="zope2.View"
+    />
+
+<browser:viewlet
+    name="iuem20-share"
+    manager="plone.app.layout.viewlets.interfaces.IGlobalStatusMessage"
+    class=".iuem20_share.iuem20Share"
+    layer="plonetheme.iuem20.interfaces.IPlonethemeIuem20Layer"
+    template="iuem20_share.pt"
+    permission="zope2.View"
+    />
+  -->
+
+</configure>

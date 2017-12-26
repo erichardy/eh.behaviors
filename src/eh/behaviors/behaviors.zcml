@@ -1,0 +1,35 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="eh.behaviors">
+
+    <plone:behavior
+        title="AlternatesLanguages"
+        description="add one or two alternates languages"
+        provides=".alt_texts.IAltTexts"
+        factory=".alt_texts.altTexts"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".alt_texts.IAltTexts"
+        />
+
+<!--
+    <plone:behavior
+        title="StartEndDates"
+        description="add start and end dates"
+        provides=".startenddates.IStartEndDates"
+        factory=".startenddates.startEndDates"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".startenddates.IStartEndDates"
+        />
+
+    <plone:behavior
+        title="Thumbnail"
+        description="add thumbnail image"
+        provides=".thumbnail.IThumbnail"
+        factory=".thumbnail.Thumbnail"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".thumbnail.IThumbnail"
+        />
+-->
+</configure>
