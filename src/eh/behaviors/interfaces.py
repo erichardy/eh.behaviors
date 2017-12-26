@@ -3,7 +3,6 @@
 
 from zope.publisher.interfaces.browser import IDefaultBrowserLayer
 from plone.supermodel import model
-from zope.schema import Bool
 from zope.schema import TextLine
 from eh.behaviors import _
 
