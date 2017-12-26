@@ -14,7 +14,8 @@
 <metal:content-core define-macro="main"
                     tal:define="toc context/table_of_contents|nothing;">
  
- <section id="viewlet-alt-languages" tal:content="structure provider:eh-alt-texts-mngr" />
+ <section id="viewlet-eh-alt-languages" tal:content="structure provider:eh-alt-texts-mgr" />
+ <section id="viewlet-eh-thumbnail" tal:content="structure provider:eh-behaviors-mgr" />
    <div id="parent-fieldname-text"
       tal:condition="context/text"
       tal:content="structure python:context.text.output_relative_to(view.context)"

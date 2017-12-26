@@ -13,7 +13,7 @@
         marker=".alt_texts.IAltTexts"
         />
 
-<!--
+
     <plone:behavior
         title="StartEndDates"
         description="add start and end dates"
@@ -31,5 +31,6 @@
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".thumbnail.IThumbnail"
         />
--->
+<!--
+ -->
 </configure>

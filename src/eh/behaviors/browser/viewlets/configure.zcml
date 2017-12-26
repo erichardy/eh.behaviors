@@ -6,7 +6,7 @@
 
 <!-- Viewlet manager -->
 <browser:viewletManager
-    name="eh-behaviors"
+    name="eh-behaviors-mgr"
     for="*"
     provides="eh.behaviors.browser.viewlets.interfaces.IEhBehaviors"
     class="plone.app.viewletmanager.manager.OrderedViewletManager"
@@ -14,20 +14,19 @@
     permission="zope2.View"
     />
 <!-- -->
-<!--
 
 <browser:viewlet
     name="eh-thumbnails"
     manager="eh.behaviors.browser.viewlets.interfaces.IEhBehaviors"
-    class=".iuem20_home_thumbnails.iuem20HomeThumbnails"
-    layer="plonetheme.iuem20.interfaces.IPlonethemeIuem20Layer"
-    template="iuem20_home_thumbnails.pt"
+    class=".eh_thumbnails.ehThumbnails"
+    layer="eh.behaviors.interfaces.IEhBehaviorsLayer"
+    template="eh_thumbnails.pt"
     permission="zope2.View"
     />
- -->
+
 <!-- VIEWLET Manager Alt Texts -->
 <browser:viewletManager
-    name="eh-alt-texts-mngr"
+    name="eh-alt-texts-mgr"
     for="*"
     provides="eh.behaviors.browser.viewlets.interfaces.IEhAltTexts"
     class="plone.app.viewletmanager.manager.OrderedViewletManager"

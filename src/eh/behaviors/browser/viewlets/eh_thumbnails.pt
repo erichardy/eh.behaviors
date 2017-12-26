@@ -1,0 +1,28 @@
+
+<!-- viewlet thumbnails -->
+ 
+<div tal:define="provided view/thumbnailProvided;
+                 portal_state context/@@plone_portal_state;
+                 portal_url portal_state/portal_url;
+                 ">
+    <!-- DEBUT THUMBNAILS -->
+	<section id="eh-thumbnails"
+	         class="container"
+	         tal:condition="provided">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 text-center">  
+      	  <a href="#" tal:attributes="href string:${context/absolute_url}">
+      	  <div class="eh-thumbnail-item" tal:define="imgSRC python:view.getThumbSRC()">
+           <span tal:condition="imgSRC">
+             <img tal:attributes="src string:${imgSRC}"
+                  class="eh-thumbnail-image"
+                  width="70px"
+                  />
+           </span>
+          </div>  
+          </a>
+        </div>
+	</section>
+ <!--FIN SECTION THUMBNAILS-->
+
+
+</div>
