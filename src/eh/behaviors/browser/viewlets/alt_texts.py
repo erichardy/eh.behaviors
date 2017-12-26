@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from plone.app.layout.viewlets import common as base
+from eh.behaviors.alt_texts import IAltTexts
 
 import logging
 
@@ -9,6 +10,9 @@ logger = logging.getLogger('eh.behaviors:altTexts')
 
 
 class altTexts(base.ViewletBase):
+
+    def altTextsProvided(self):
+        return IAltTexts.providedBy(self.context)
 
     def displayAlt1(self):
         try:

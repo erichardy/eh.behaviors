@@ -9,9 +9,10 @@
                  display2 view/displayAlt2;
                  label2 view/getLabel2;
                  richTextAlt2 view/getTextAlt2;
-                 ">
+                 provided view/altTextsProvided">
 
-    <section id="eh-alt-texts" class="pushbottom">
+    <section id="eh-alt-texts" class="pushbottom"
+             tal:condition="provided">
 		<span tal:condition="python:display1 and richTextAlt1"
 		    class="align-right">
 		      <button type="button"
@@ -38,6 +39,26 @@
 		  	text ALT2
 		  </div>
 		</div>
+   <script>
+   /* Les boutons d'affichage/cache des versions anglaises */
+   /*
+    * - un bouton est de la classe "collapser"
+    * - son id est, par exemple : show-english-version
+    * - le clic sur ce bouton montre/cache un element du DOM qui
+    *   a pour id : show-english-version-collapse
+    */
+   $("button.collapser").click(function(e){
+   	to_show = $(this).attr("id") + '-collapse';
+   	$("#" + to_show).toggle("slow", "swing", function(e){
+   		display = $("#" + to_show).css("display");
+   		if (display === "block"){
+   			$("#" + to_show).css("display", "flex");
+   		}
+   	});
+   })
+   /* FIN Les boutons d'affichage/cache des versions anglaises */
+
+   </script>
    </section>
 
 

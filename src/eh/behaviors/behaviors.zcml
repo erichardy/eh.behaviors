@@ -5,7 +5,7 @@
     i18n_domain="eh.behaviors">
 
     <plone:behavior
-        title="AlternatesLanguages"
+        title="Alternates Languages"
         description="add one or two alternates languages"
         provides=".alt_texts.IAltTexts"
         factory=".alt_texts.altTexts"
