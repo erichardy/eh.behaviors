@@ -1,10 +1,7 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-12-27 13:15+0000\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +12,7 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: eh.behaviors\n"
-
-#: ./startenddates.py:36
-msgid ""
-msgstr ""
+"Domain: DOMAIN\n"
 
 #: ./alt_texts.py:58
 msgid "Alt text one"
@@ -29,44 +22,12 @@ msgstr ""
 msgid "Alt text two"
 msgstr ""
 
-#: ./behaviors.zcml:14
-msgid "Alternates Texts"
-msgstr ""
-
 #: ./alt_texts.py:39
 msgid "Alternates texts"
 msgstr ""
 
-#: ./configure.zcml:35
-msgid "Installs the eh.behaviors add-on."
-msgstr ""
-
 #: ./interfaces.py:39
 msgid "Name of the default thumb image"
-msgstr ""
-
-#: ./behaviors.zcml:24
-msgid "StartEndDates"
-msgstr ""
-
-#: ./behaviors.zcml:33
-msgid "Thumbnail"
-msgstr ""
-
-#: ./configure.zcml:44
-msgid "Uninstalls the eh.behaviors add-on."
-msgstr ""
-
-#: ./behaviors.zcml:14
-msgid "add one or two alternates texts"
-msgstr ""
-
-#: ./behaviors.zcml:24
-msgid "add start and end dates"
-msgstr ""
-
-#: ./behaviors.zcml:33
-msgid "add thumbnail image"
 msgstr ""
 
 #: ./interfaces.py:18
@@ -109,14 +70,6 @@ msgstr ""
 
 #: ./startenddates.py:30
 msgid "display time with dates ?"
-msgstr ""
-
-#: ./configure.zcml:35
-msgid "eh.behaviors"
-msgstr ""
-
-#: ./configure.zcml:44
-msgid "eh.behaviors (uninstall)"
 msgstr ""
 
 #: ./controlpanel.py:11

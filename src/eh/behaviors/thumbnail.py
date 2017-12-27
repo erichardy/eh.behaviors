@@ -39,7 +39,7 @@ class IThumbnail(model.Schema):
                    )
     thumbnail = namedfile.NamedBlobImage(
         title=_(u'label_thumbnail'),
-        description=u'',
+        description=_(u'be aware of the file size !'),
         required=False,
     )
     use_thumb_default = Bool(

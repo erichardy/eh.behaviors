@@ -55,7 +55,7 @@ class IAltTexts(model.Schema):
         required=False,
         )
     dexteritytextindexer.searchable('presentation_one')
-    presentation_one = RichTextField(title=_(u'Alt text one text'),
+    presentation_one = RichTextField(title=_(u'Alt text one'),
                                      description=_(u'presentation one'),
                                      required=False
                                      )
@@ -73,7 +73,7 @@ class IAltTexts(model.Schema):
         required=False,
         )
     dexteritytextindexer.searchable('presentation_two')
-    presentation_two = RichTextField(title=_(u'Alt text two text'),
+    presentation_two = RichTextField(title=_(u'Alt text two'),
                                      description=_(u'presentation two'),
                                      required=False
                                      )

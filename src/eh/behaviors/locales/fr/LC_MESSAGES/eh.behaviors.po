@@ -1,10 +1,7 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-12-27 13:15+0000\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,27 +12,23 @@ msgstr ""
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
-"Domain: eh.behaviors\n"
-
-#: ./startenddates.py:36
-msgid ""
-msgstr ""
+"Domain: DOMAIN\n"
 
 #: ./alt_texts.py:58
 msgid "Alt text one"
-msgstr ""
+msgstr "Premire texte alternatif"
 
 #: ./alt_texts.py:76
 msgid "Alt text two"
-msgstr ""
+msgstr "Second texte alternatif"
 
 #: ./behaviors.zcml:14
 msgid "Alternates Texts"
-msgstr ""
+msgstr "Textes alternatifs"
 
 #: ./alt_texts.py:39
 msgid "Alternates texts"
-msgstr ""
+msgstr "Textes alternatifs"
 
 #: ./configure.zcml:35
 msgid "Installs the eh.behaviors add-on."
@@ -43,15 +36,15 @@ msgstr ""
 
 #: ./interfaces.py:39
 msgid "Name of the default thumb image"
-msgstr ""
+msgstr "Nom du fichier de la vignette par défaut"
 
 #: ./behaviors.zcml:24
 msgid "StartEndDates"
-msgstr ""
+msgstr "Dates de début et de fin"
 
 #: ./behaviors.zcml:33
 msgid "Thumbnail"
-msgstr ""
+msgstr "Vignette"
 
 #: ./configure.zcml:44
 msgid "Uninstalls the eh.behaviors add-on."
@@ -71,45 +64,45 @@ msgstr ""
 
 #: ./interfaces.py:18
 msgid "alt texts"
-msgstr ""
+msgstr "Textes alternatifs"
 
 #: ./thumbnail.py:42
 msgid "be aware of the file size !"
-msgstr ""
+msgstr "Attention à la taille du fichier... ce n'est qu'une vignette !!!"
 
 #: ./interfaces.py:49
 #: ./thumbnail.py:60
 msgid "default height"
-msgstr ""
+msgstr "Hauteur par défaut"
 
 #: ./interfaces.py:44
 #: ./thumbnail.py:54
 msgid "default width"
-msgstr ""
+msgstr "Largeur par défaut"
 
 #: ./interfaces.py:24
 msgid "default_alt_text_one_label"
-msgstr ""
+msgstr "Label par défaut pour le premier texte alternatif"
 
 #: ./interfaces.py:28
 msgid "default_alt_text_two_label"
-msgstr ""
+msgstr "Label par défaut pour le second texte alternatif"
 
 #: ./alt_texts.py:48
 msgid "display first Alt text"
-msgstr ""
+msgstr "Afficher le premier texte alternatif"
 
 #: ./alt_texts.py:66
 msgid "display second Alt text"
-msgstr ""
+msgstr "Afficher le second texte alternatif"
 
 #: ./startenddates.py:26
 msgid "display start and end dates ?"
-msgstr ""
+msgstr "Afficher les dates de début et de fin ?"
 
 #: ./startenddates.py:30
 msgid "display time with dates ?"
-msgstr ""
+msgstr "Afficher l'heure avec les dates"
 
 #: ./configure.zcml:35
 msgid "eh.behaviors"
@@ -129,66 +122,66 @@ msgstr ""
 
 #: ./startenddates.py:40
 msgid "end date"
-msgstr ""
+msgstr "Date de fin"
 
 #: ./thumbnail.py:47
 msgid "even if a thumbnail is loaded here"
-msgstr ""
+msgstr "Même si une vignette a été chargée ici"
 
 #: ./thumbnail.py:51
 msgid "even if sizes are given here"
-msgstr ""
+msgstr "Même si des tailles ont été données ici"
 
 #: ./interfaces.py:40
 msgid "in portal_skins/custom/images"
-msgstr ""
+msgstr "Doit être dans portal_skins/custom/images"
 
 #: ./alt_texts.py:53
 msgid "label for alt text one button"
-msgstr ""
+msgstr "Label par défaut pour le bouton du permier texte alternatif"
 
 #: ./alt_texts.py:71
 msgid "label for alt text two button"
-msgstr ""
+msgstr "Label par défaut pour le bouton du second texte alternatif"
 
 #: ./thumbnail.py:41
 msgid "label_thumbnail"
-msgstr ""
+msgstr "Choisir un fichier pour la vignette"
 
 #: ./interfaces.py:45
 #: ./thumbnail.py:55
 msgid "must be integer"
-msgstr ""
+msgstr "Nombre entier"
 
 #: ./alt_texts.py:59
 msgid "presentation one"
-msgstr ""
+msgstr "Contenu du premier texte alternatif"
 
 #: ./alt_texts.py:77
 msgid "presentation two"
-msgstr ""
+msgstr "Contenu du second texte alternatif"
 
 #: ./startenddates.py:35
 msgid "start date"
-msgstr ""
+msgstr "Date de début"
 
 #: ./thumbnail.py:32
 msgid "thumbnail"
-msgstr ""
+msgstr "Vignette"
 
 #: ./interfaces.py:32
 msgid "thumbnails"
-msgstr ""
+msgstr "Vignettes"
 
 #: ./alt_texts.py:49
 #: ./startenddates.py:27
 msgid "unselect to disable"
-msgstr ""
+msgstr "Décocher pour désactiver"
 
 #: ./thumbnail.py:46
 msgid "use default site thumbnail"
-msgstr ""
+msgstr "Utiliser la vignette par défaut du site"
 
 #: ./thumbnail.py:50
 msgid "use default site thumbnail size"
-msgstr ""
+msgstr "Utiliser les tailles de vignette par défaut définies dans la configuration du site"
