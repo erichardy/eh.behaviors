@@ -11,6 +11,7 @@ from zope.schema.vocabulary import SimpleVocabulary
 import logging
 import re
 
+# from eh.behaviors.thumbnail import IThumbnail
 
 # from eh.behaviors import _
 
@@ -124,25 +125,3 @@ def canView(obj):
         return perm['View']
     else:
         return False
-
-
-def getObjThumbnailSrc(context):
-    src = context.absolute_url()
-    try:
-        thumb = context.thumbnail
-        if thumb:
-            logger.info(thumb.filename)
-            src += '/@@download/thumbnail/' + thumb.filename
-            return src
-    except Exception:
-        pass
-    try:
-        image = context.image
-        if image:
-            src += '/@@download/image/' + image.filename
-            return src
-    except Exception:
-        pass
-    default = getSettingValue('default_thumb')
-    portal = api.portal.get()
-    return portal.absolute_url() + '/images/' + default

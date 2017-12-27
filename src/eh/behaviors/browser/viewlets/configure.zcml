@@ -16,11 +16,11 @@
 <!-- -->
 
 <browser:viewlet
-    name="eh-thumbnails"
+    name="eh-thumbnail"
     manager="eh.behaviors.browser.viewlets.interfaces.IEhBehaviors"
-    class=".eh_thumbnails.ehThumbnails"
+    class=".eh_thumbnails.ehThumbnail"
     layer="eh.behaviors.interfaces.IEhBehaviorsLayer"
-    template="eh_thumbnails.pt"
+    template="eh_thumbnail.pt"
     permission="zope2.View"
     />
 
