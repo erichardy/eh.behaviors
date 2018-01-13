@@ -14,6 +14,10 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
+#: ./misc_attributes.py:37
+msgid "0 = top, 1000 = bottom"
+msgstr "0 = tout en haut de la page, 1000 = tout en bas"
+
 #: ./alt_texts.py:58
 msgid "Alt text one"
 msgstr "Premire texte alternatif"
@@ -34,6 +38,14 @@ msgstr "Textes alternatifs"
 msgid "Installs the eh.behaviors add-on."
 msgstr ""
 
+#: ./behaviors.zcml:42
+msgid "Misc Attributes"
+msgstr "Attrs divers"
+
+#: ./misc_attributes.py:30
+msgid "Misc attributes"
+msgstr "Attrs divers"
+
 #: ./interfaces.py:39
 msgid "Name of the default thumb image"
 msgstr "Nom du fichier de la vignette par défaut"
@@ -49,6 +61,10 @@ msgstr "Vignette"
 #: ./configure.zcml:44
 msgid "Uninstalls the eh.behaviors add-on."
 msgstr ""
+
+#: ./behaviors.zcml:42
+msgid "add miscellaneous attributes"
+msgstr "Ajout d'attributs divers aux éléments"
 
 #: ./behaviors.zcml:14
 msgid "add one or two alternates texts"
@@ -99,6 +115,14 @@ msgstr "Afficher le second texte alternatif"
 #: ./startenddates.py:26
 msgid "display start and end dates ?"
 msgstr "Afficher les dates de début et de fin ?"
+
+#: ./misc_attributes.py:47
+msgid "display the description in the view"
+msgstr "Afficher la description dans la vue"
+
+#: ./misc_attributes.py:42
+msgid "display the title in the view"
+msgstr "Afficher le titre dans la vue"
 
 #: ./startenddates.py:30
 msgid "display time with dates ?"
@@ -153,6 +177,10 @@ msgstr "Choisir un fichier pour la vignette"
 msgid "must be integer"
 msgstr "Nombre entier"
 
+#: ./misc_attributes.py:36
+msgid "position wanted in the view, only if used in mixed view"
+msgstr "Position dans la vue, seulement si cela est utilisé dans les vues composées (hors Mosaic)"
+
 #: ./alt_texts.py:59
 msgid "presentation one"
 msgstr "Contenu du premier texte alternatif"
@@ -174,6 +202,7 @@ msgid "thumbnails"
 msgstr "Vignettes"
 
 #: ./alt_texts.py:49
+#: ./misc_attributes.py:43
 #: ./startenddates.py:27
 msgid "unselect to disable"
 msgstr "Décocher pour désactiver"

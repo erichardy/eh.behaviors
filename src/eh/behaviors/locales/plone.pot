@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-12-27 13:15+0000\n"
+"POT-Creation-Date: 2018-01-13 12:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,6 +21,10 @@ msgstr ""
 msgid ""
 msgstr ""
 
+#: ./misc_attributes.py:37
+msgid "0 = top, 1000 = bottom"
+msgstr ""
+
 #: ./alt_texts.py:58
 msgid "Alt text one"
 msgstr ""
@@ -31,6 +35,10 @@ msgstr ""
 
 #: ./alt_texts.py:39
 msgid "Alternates texts"
+msgstr ""
+
+#: ./misc_attributes.py:30
+msgid "Misc attributes"
 msgstr ""
 
 #: ./interfaces.py:39
@@ -73,6 +81,14 @@ msgstr ""
 
 #: ./startenddates.py:26
 msgid "display start and end dates ?"
+msgstr ""
+
+#: ./misc_attributes.py:47
+msgid "display the description in the view"
+msgstr ""
+
+#: ./misc_attributes.py:42
+msgid "display the title in the view"
 msgstr ""
 
 #: ./startenddates.py:30
@@ -120,6 +136,10 @@ msgstr ""
 msgid "must be integer"
 msgstr ""
 
+#: ./misc_attributes.py:36
+msgid "position wanted in the view, only if used in mixed view"
+msgstr ""
+
 #: ./alt_texts.py:59
 msgid "presentation one"
 msgstr ""
@@ -141,6 +161,7 @@ msgid "thumbnails"
 msgstr ""
 
 #: ./alt_texts.py:49
+#: ./misc_attributes.py:43
 #: ./startenddates.py:27
 msgid "unselect to disable"
 msgstr ""

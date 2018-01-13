@@ -31,6 +31,16 @@
         for="plone.dexterity.interfaces.IDexterityContent"
         marker=".thumbnail.IThumbnail"
         />
+
+    <plone:behavior
+        title="Misc Attributes"
+        description="add miscellaneous attributes"
+        provides=".misc_attributes.IMiscAttributes"
+        factory=".misc_attributes.miscAttributes"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        marker=".misc_attributes.IMiscAttributes"
+        />
+
 <!--
  -->
 </configure>
